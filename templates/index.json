@@ -1,0 +1,84 @@
+{
+  "templates": [
+    {
+      "id": "nda-unilateral",
+      "name": "Non-Disclosure Agreement (Unilateral)",
+      "category": "intellectual-property",
+      "description": "A one-way NDA where one party discloses confidential information",
+      "fields": ["disclosingParty", "receivingParty", "confidentialInfo", "duration", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "nda-mutual",
+      "name": "Non-Disclosure Agreement (Mutual)",
+      "category": "intellectual-property",
+      "description": "A two-way NDA for mutual exchange of confidential information",
+      "fields": ["partyA", "partyB", "confidentialInfo", "duration", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "service-agreement",
+      "name": "Service Agreement",
+      "category": "contracts",
+      "description": "Standard agreement for service provision between parties",
+      "fields": ["serviceProvider", "client", "services", "fees", "term", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "employment-contract",
+      "name": "Employment Contract",
+      "category": "employment",
+      "description": "Full-time employment contract with standard terms",
+      "fields": ["employer", "employee", "position", "startDate", "salary", "benefits", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "contractor-agreement",
+      "name": "Independent Contractor Agreement",
+      "category": "contracts",
+      "description": "Agreement for independent contractors and freelancers",
+      "fields": ["contractor", "company", "scope", "compensation", "term", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "purchase-agreement",
+      "name": "Purchase Agreement",
+      "category": "transactions",
+      "description": "Agreement for purchase of goods or assets",
+      "fields": ["buyer", "seller", "itemDescription", "price", "deliveryTerms", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "tos-saas",
+      "name": "Terms of Service (SaaS)",
+      "category": "policies",
+      "description": "Standard Terms of Service for Software-as-a-Service platforms",
+      "fields": ["companyName", "effectiveDate", "services", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "privacy-policy",
+      "name": "Privacy Policy",
+      "category": "policies",
+      "description": "Privacy policy for data collection and usage",
+      "fields": ["companyName", "dataTypes", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "licensing-agreement",
+      "name": "Software Licensing Agreement",
+      "category": "intellectual-property",
+      "description": "License agreement for software usage",
+      "fields": ["licensor", "licensee", "software", "licenseType", "fee", "duration", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    },
+    {
+      "id": "rental-agreement",
+      "name": "Rental/Lease Agreement",
+      "category": "real-estate",
+      "description": "Standard residential or commercial rental agreement",
+      "fields": ["landlord", "tenant", "property", "rentAmount", "term", "jurisdiction"],
+      "lastUpdated": "2025-03-06"
+    }
+  ]
+}

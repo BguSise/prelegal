@@ -1,0 +1,57 @@
+{
+  "id": "service-agreement",
+  "name": "Service Agreement",
+  "category": "contracts",
+  "version": "1.0",
+  "createdDate": "2025-03-06",
+  "fields": {
+    "serviceProvider": {
+      "label": "Service Provider Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company or Individual Name"
+    },
+    "client": {
+      "label": "Client Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company or Individual Name"
+    },
+    "effectiveDate": {
+      "label": "Effective Date",
+      "type": "date",
+      "required": true
+    },
+    "services": {
+      "label": "Description of Services",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Detailed description of services to be provided"
+    },
+    "fees": {
+      "label": "Service Fees",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., $5,000 monthly, $100 per hour"
+    },
+    "paymentTerms": {
+      "label": "Payment Terms",
+      "type": "text",
+      "required": false,
+      "placeholder": "e.g., Net 30, Due upon invoice"
+    },
+    "term": {
+      "label": "Contract Term",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., 12 months starting from Effective Date"
+    },
+    "jurisdiction": {
+      "label": "Governing Jurisdiction",
+      "type": "text",
+      "required": true,
+      "default": "United States"
+    }
+  },
+  "content": "SERVICE AGREEMENT\n\nThis Service Agreement (\"Agreement\") is entered into as of {{effectiveDate}} between {{serviceProvider}} (\"Service Provider\") and {{client}} (\"Client\").\n\nWHEREAS, the Service Provider agrees to provide certain services to the Client on the terms and conditions set forth herein;\n\nNOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the parties agree as follows:\n\n1. SERVICES\nThe Service Provider shall provide the following services (\"Services\"):\n{{services}}\n\n2. FEES AND PAYMENT\n(a) Client shall pay Service Provider fees of {{fees}}\n(b) Payment terms shall be {{paymentTerms}}\n(c) All fees are exclusive of applicable taxes\n(d) Service Provider shall invoice Client upon completion of Services\n\n3. TERM\nThis Agreement shall commence on {{effectiveDate}} and continue for {{term}}, unless earlier terminated in accordance with the terms hereof.\n\n4. PERFORMANCE STANDARDS\n(a) Service Provider shall perform the Services in a professional and timely manner\n(b) Service Provider shall maintain all necessary licenses and insurance\n(c) Service Provider shall be responsible for the quality of work performed\n\n5. CONFIDENTIALITY\nBoth parties agree to maintain the confidentiality of any proprietary information shared during the performance of this Agreement.\n\n6. TERMINATION\n(a) Either party may terminate this Agreement with 30 days' written notice\n(b) Upon termination, Service Provider shall complete or suspend work as directed\n(c) Client remains obligated to pay for Services rendered through the termination date\n\n7. LIABILITY\n(a) Service Provider's liability shall not exceed the total fees paid in the preceding 12 months\n(b) Neither party shall be liable for indirect or consequential damages\n\n8. GOVERNING LAW\nThis Agreement shall be governed by the laws of {{jurisdiction}}.\n\n9. ENTIRE AGREEMENT\nThis constitutes the entire agreement between the parties.\n\nIN WITNESS WHEREOF:\n\nSERVICE PROVIDER: {{serviceProvider}}\nBy: _____________________\nName: ___________________\nDate: ____________________\n\nCLIENT: {{client}}\nBy: _____________________\nName: ___________________\nDate: ____________________"
+}
