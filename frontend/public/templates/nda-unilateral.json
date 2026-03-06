@@ -1,0 +1,46 @@
+{
+  "id": "nda-unilateral",
+  "name": "Non-Disclosure Agreement (Unilateral)",
+  "category": "intellectual-property",
+  "version": "1.0",
+  "createdDate": "2025-03-06",
+  "fields": {
+    "disclosingParty": {
+      "label": "Disclosing Party Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company or Individual Name"
+    },
+    "receivingParty": {
+      "label": "Receiving Party Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company or Individual Name"
+    },
+    "effectiveDate": {
+      "label": "Effective Date",
+      "type": "date",
+      "required": true
+    },
+    "confidentialInfo": {
+      "label": "Types of Confidential Information",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Technical data, business plans, trade secrets, etc."
+    },
+    "duration": {
+      "label": "Confidentiality Duration (in years)",
+      "type": "number",
+      "required": true,
+      "default": 3
+    },
+    "jurisdiction": {
+      "label": "Governing Jurisdiction",
+      "type": "text",
+      "required": true,
+      "placeholder": "State/Country",
+      "default": "United States"
+    }
+  },
+  "content": "NON-DISCLOSURE AGREEMENT (UNILATERAL)\n\nThis Non-Disclosure Agreement (\"Agreement\") is entered into as of {{effectiveDate}} between {{disclosingParty}} (\"Disclosing Party\") and {{receivingParty}} (\"Receiving Party\").\n\nWHEREAS, the Disclosing Party desires to disclose certain confidential and proprietary information to the Receiving Party;\n\nNOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the parties agree as follows:\n\n1. CONFIDENTIAL INFORMATION\nConfidential Information means all non-public, proprietary information disclosed by the Disclosing Party to the Receiving Party, including but not limited to: {{confidentialInfo}}\n\n2. OBLIGATIONS\nThe Receiving Party agrees to:\n(a) Maintain the confidentiality of all Confidential Information\n(b) Limit disclosure to employees who need to know\n(c) Use the information solely for evaluation purposes\n(d) Protect the information with reasonable security measures\n\n3. DURATION\nThis obligation shall continue for {{duration}} years from the date of disclosure, unless otherwise provided by law.\n\n4. EXCLUSIONS\nConfidential Information does not include information that:\n(a) Is already in the public domain\n(b) Was independently developed without use of Confidential Information\n(c) Is rightfully received from third parties without confidentiality obligations\n(d) Is required to be disclosed by law\n\n5. GOVERNING LAW\nThis Agreement shall be governed by and construed in accordance with the laws of {{jurisdiction}}, without regard to conflicts of law principles.\n\n6. ENTIRE AGREEMENT\nThis Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations and understandings.\n\nIN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.\n\nDISCLOSING PARTY: {{disclosingParty}}\nBy: _____________________\nName: ___________________\nTitle: ____________________\nDate: ____________________\n\nRECEIVING PARTY: {{receivingParty}}\nBy: _____________________\nName: ___________________\nTitle: ____________________\nDate: ____________________"
+}

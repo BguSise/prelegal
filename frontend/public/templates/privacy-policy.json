@@ -1,0 +1,51 @@
+{
+  "id": "privacy-policy",
+  "name": "Privacy Policy",
+  "category": "policies",
+  "version": "1.0",
+  "createdDate": "2025-03-06",
+  "fields": {
+    "companyName": {
+      "label": "Company Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Your Company Name"
+    },
+    "companyEmail": {
+      "label": "Contact Email",
+      "type": "email",
+      "required": true,
+      "placeholder": "privacy@company.com"
+    },
+    "effectiveDate": {
+      "label": "Effective Date",
+      "type": "date",
+      "required": true
+    },
+    "dataTypes": {
+      "label": "Types of Data Collected",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Name, email, location, usage data, etc."
+    },
+    "dataUsage": {
+      "label": "How Data is Used",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Service improvement, communication, analytics, etc."
+    },
+    "thirdParties": {
+      "label": "Third Party Sharing",
+      "type": "text",
+      "required": false,
+      "placeholder": "e.g., Analytics providers, payment processors"
+    },
+    "jurisdiction": {
+      "label": "Governing Jurisdiction",
+      "type": "text",
+      "required": true,
+      "default": "United States"
+    }
+  },
+  "content": "PRIVACY POLICY\n\nEffective Date: {{effectiveDate}}\n\n1. INTRODUCTION\n{{companyName}} (\"Company,\" \"we,\" \"us,\" or \"our\") operates this website/service. This Privacy Policy explains how we collect, use, disclose, and otherwise handle your information.\n\n2. INFORMATION WE COLLECT\nWe may collect information about you in the following ways:\n(a) Information you provide directly: {{dataTypes}}\n(b) Information collected automatically through cookies and tracking technologies\n(c) Information from third parties and public sources\n\n3. HOW WE USE INFORMATION\nWe use the information we collect for the following purposes:\n{{dataUsage}}\n\nWe may also use your information to:\n- Send promotional communications (with your consent)\n- Comply with legal obligations\n- Enforce our terms and agreements\n- Prevent fraud and ensure security\n\n4. SHARING OF INFORMATION\nWe may share your information with:\n(a) Service providers and vendors: {{thirdParties}}\n(b) Law enforcement and government agencies when required by law\n(c) Other parties with your consent\n\nWe do not sell your personal information to third parties for their marketing purposes.\n\n5. DATA SECURITY\nWe implement appropriate technical and organizational measures to protect your information. However, no transmission over the internet is completely secure.\n\n6. YOUR RIGHTS\nYou have the right to:\n(a) Access your personal information\n(b) Request correction of inaccurate information\n(c) Request deletion of your information\n(d) Opt-out of marketing communications\n(e) Data portability\n\nTo exercise these rights, please contact us at {{companyEmail}}.\n\n7. RETENTION\nWe retain your information for as long as necessary to provide our services and fulfill the purposes outlined in this Privacy Policy.\n\n8. CHILDREN'S PRIVACY\nOur services are not directed to children under 13. We do not knowingly collect information from children under 13.\n\n9. THIRD-PARTY LINKS\nOur services may contain links to third-party websites. We are not responsible for their privacy practices.\n\n10. CHANGES TO THIS POLICY\nWe may update this Privacy Policy periodically. We will notify you of material changes by posting the updated policy on our website.\n\n11. CONTACT US\nIf you have questions about this Privacy Policy, please contact us at:\n{{companyName}}\nEmail: {{companyEmail}}\n\n12. GOVERNING LAW\nThis Privacy Policy shall be governed by the laws of {{jurisdiction}}."
+}

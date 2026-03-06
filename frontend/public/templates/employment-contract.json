@@ -1,0 +1,57 @@
+{
+  "id": "employment-contract",
+  "name": "Employment Contract",
+  "category": "employment",
+  "version": "1.0",
+  "createdDate": "2025-03-06",
+  "fields": {
+    "employer": {
+      "label": "Employer Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company Name"
+    },
+    "employee": {
+      "label": "Employee Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Full Name"
+    },
+    "position": {
+      "label": "Position/Job Title",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., Senior Software Engineer"
+    },
+    "startDate": {
+      "label": "Employment Start Date",
+      "type": "date",
+      "required": true
+    },
+    "salary": {
+      "label": "Annual Salary",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., $150,000"
+    },
+    "benefits": {
+      "label": "Benefits",
+      "type": "textarea",
+      "required": false,
+      "placeholder": "Health insurance, 401(k), PTO, etc."
+    },
+    "reportingTo": {
+      "label": "Reports To",
+      "type": "text",
+      "required": false,
+      "placeholder": "Job title of direct supervisor"
+    },
+    "jurisdiction": {
+      "label": "Governing Jurisdiction",
+      "type": "text",
+      "required": true,
+      "default": "United States"
+    }
+  },
+  "content": "EMPLOYMENT AGREEMENT\n\nThis Employment Agreement (\"Agreement\") is entered into as of {{startDate}} between {{employer}} (\"Employer\") and {{employee}} (\"Employee\").\n\nWHEREAS, Employer wishes to employ Employee, and Employee wishes to be employed by Employer, on the terms and conditions set forth herein;\n\nNOW, THEREFORE, in consideration of the mutual covenants and agreements herein, the parties agree as follows:\n\n1. POSITION AND DUTIES\n(a) Employee shall serve as {{position}}\n(b) Employee shall report to {{reportingTo}}\n(c) Employee shall perform duties as assigned by Employer\n(d) Employee's primary place of work shall be as designated by Employer\n\n2. TERM\n(a) Employment shall commence on {{startDate}}\n(b) This is employment at-will, terminable by either party at any time\n\n3. COMPENSATION\n(a) Employer shall pay Employee an annual salary of {{salary}}, payable in accordance with Employer's standard payroll practices\n(b) Salary is subject to applicable deductions and withholdings\n(c) Salary may be reviewed annually\n\n4. BENEFITS\nEmployee shall be entitled to the following benefits:\n{{benefits}}\n\n5. HOURS AND OVERTIME\n(a) Employee shall work such hours as are necessary to perform job duties\n(b) Overtime compensation shall be provided in accordance with applicable law\n(c) Employee shall comply with Employer's timekeeping procedures\n\n6. AT-WILL EMPLOYMENT\nEmployment is at-will and may be terminated by either party at any time, with or without cause, subject to applicable law.\n\n7. CONFIDENTIAL INFORMATION\nEmployee agrees to maintain confidentiality of all proprietary and confidential information.\n\n8. INTELLECTUAL PROPERTY\nAll work product created by Employee during employment shall be the exclusive property of Employer.\n\n9. DISPUTE RESOLUTION\nAny disputes shall be resolved in accordance with the laws of {{jurisdiction}}.\n\n10. ENTIRE AGREEMENT\nThis constitutes the entire agreement between the parties.\n\nIN WITNESS WHEREOF:\n\nEMPLOYER: {{employer}}\nBy: _____________________\nName: ___________________\nTitle: ____________________\nDate: ____________________\n\nEMPLOYEE: {{employee}}\nSignature: ________________\nDate: ____________________"
+}

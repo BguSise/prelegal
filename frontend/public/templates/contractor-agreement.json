@@ -1,0 +1,57 @@
+{
+  "id": "contractor-agreement",
+  "name": "Independent Contractor Agreement",
+  "category": "contracts",
+  "version": "1.0",
+  "createdDate": "2025-03-06",
+  "fields": {
+    "contractor": {
+      "label": "Contractor Name/Company",
+      "type": "text",
+      "required": true,
+      "placeholder": "Name or Business Entity"
+    },
+    "company": {
+      "label": "Company Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company Name"
+    },
+    "effectiveDate": {
+      "label": "Effective Date",
+      "type": "date",
+      "required": true
+    },
+    "scope": {
+      "label": "Scope of Work",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Detailed description of work to be performed"
+    },
+    "compensation": {
+      "label": "Compensation",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., $5,000 fixed, $75/hour"
+    },
+    "deliverables": {
+      "label": "Deliverables",
+      "type": "textarea",
+      "required": false,
+      "placeholder": "Specific deliverables and milestones"
+    },
+    "term": {
+      "label": "Term/Duration",
+      "type": "text",
+      "required": true,
+      "placeholder": "e.g., 3 months from Effective Date"
+    },
+    "jurisdiction": {
+      "label": "Governing Jurisdiction",
+      "type": "text",
+      "required": true,
+      "default": "United States"
+    }
+  },
+  "content": "INDEPENDENT CONTRACTOR AGREEMENT\n\nThis Independent Contractor Agreement (\"Agreement\") is entered into as of {{effectiveDate}} between {{company}} (\"Company\") and {{contractor}} (\"Contractor\").\n\nWHEREAS, Company desires to engage Contractor to perform certain services, and Contractor desires to provide such services on the terms and conditions set forth herein;\n\nNOW, THEREFORE, in consideration of the mutual covenants and agreements herein, the parties agree as follows:\n\n1. INDEPENDENT CONTRACTOR STATUS\n(a) Contractor is an independent contractor, not an employee of Company\n(b) Contractor shall have no rights to benefits, workers' compensation, or unemployment insurance\n(c) Contractor is responsible for all payroll taxes, withholdings, and insurance\n(d) Contractor may work for other clients during the term of this Agreement\n\n2. SCOPE OF WORK\nContractor shall perform the following services:\n{{scope}}\n\n3. DELIVERABLES\nContractor shall deliver the following:\n{{deliverables}}\n\n4. COMPENSATION\n(a) Company shall pay Contractor {{compensation}}\n(b) Payment shall be made within 30 days of invoice submission\n(c) Contractor is responsible for all business expenses\n(d) No benefits, overtime, or other employment benefits shall be provided\n\n5. TERM\nThis Agreement shall commence on {{effectiveDate}} and continue for {{term}}, unless earlier terminated.\n\n6. CONFIDENTIALITY\nContractor agrees to maintain the confidentiality of all proprietary information and trade secrets of Company.\n\n7. INTELLECTUAL PROPERTY\n(a) All work product created by Contractor shall be the exclusive property of Company\n(b) Contractor grants Company all rights, title, and interest in the work product\n(c) Contractor waives all moral rights in the work product\n\n8. TERMINATION\n(a) Either party may terminate this Agreement with 10 days' written notice\n(b) Company shall pay Contractor for work completed through the termination date\n\n9. LIABILITY\n(a) Contractor shall maintain liability insurance as required\n(b) Contractor assumes all liability for the work performed\n(c) Neither party shall be liable for indirect or consequential damages\n\n10. NON-COMPETE\nDuring the term of this Agreement and for {{term}} thereafter, Contractor shall not perform similar services for Company's direct competitors.\n\n11. INSURANCE AND COMPLIANCE\nContractor shall maintain all necessary licenses and insurance and shall comply with all applicable laws.\n\n12. GOVERNING LAW\nThis Agreement shall be governed by the laws of {{jurisdiction}}.\n\n13. ENTIRE AGREEMENT\nThis constitutes the entire agreement between the parties.\n\nIN WITNESS WHEREOF:\n\nCOMPANY: {{company}}\nBy: _____________________\nName: ___________________\nTitle: ____________________\nDate: ____________________\n\nCONTRACTOR: {{contractor}}\nSignature: ________________\nDate: ____________________"
+}

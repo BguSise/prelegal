@@ -1,0 +1,46 @@
+{
+  "id": "nda-mutual",
+  "name": "Non-Disclosure Agreement (Mutual)",
+  "category": "intellectual-property",
+  "version": "1.0",
+  "createdDate": "2025-03-06",
+  "fields": {
+    "partyA": {
+      "label": "Party A Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company or Individual Name"
+    },
+    "partyB": {
+      "label": "Party B Name",
+      "type": "text",
+      "required": true,
+      "placeholder": "Company or Individual Name"
+    },
+    "effectiveDate": {
+      "label": "Effective Date",
+      "type": "date",
+      "required": true
+    },
+    "confidentialInfo": {
+      "label": "Types of Confidential Information",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Technical data, business plans, trade secrets, financial information, etc."
+    },
+    "duration": {
+      "label": "Confidentiality Duration (in years)",
+      "type": "number",
+      "required": true,
+      "default": 3
+    },
+    "jurisdiction": {
+      "label": "Governing Jurisdiction",
+      "type": "text",
+      "required": true,
+      "placeholder": "State/Country",
+      "default": "United States"
+    }
+  },
+  "content": "MUTUAL NON-DISCLOSURE AGREEMENT\n\nThis Mutual Non-Disclosure Agreement (\"Agreement\") is entered into as of {{effectiveDate}} between {{partyA}} (\"Party A\") and {{partyB}} (\"Party B\").\n\nWHEREAS, the parties desire to disclose certain confidential and proprietary information to each other;\n\nNOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the parties agree as follows:\n\n1. CONFIDENTIAL INFORMATION\nConfidential Information means all non-public, proprietary information disclosed by either party to the other, including but not limited to: {{confidentialInfo}}\n\n2. OBLIGATIONS\nEach party agrees to:\n(a) Maintain the confidentiality of all Confidential Information received from the other party\n(b) Limit disclosure to employees and authorized representatives who need to know\n(c) Use the information solely for evaluation and business purposes\n(d) Protect the information with reasonable security measures consistent with industry standards\n(e) Not reverse engineer, disassemble, or attempt to derive the underlying processes of Confidential Information\n\n3. DURATION\nEach party's obligation to maintain confidentiality shall continue for {{duration}} years from the date of disclosure, unless otherwise provided by law.\n\n4. EXCLUSIONS\nConfidential Information does not include information that:\n(a) Is already in the public domain or becomes public through no breach of this Agreement\n(b) Was independently developed without use of or reference to Confidential Information\n(c) Is rightfully received from third parties without confidentiality obligations\n(d) Is required to be disclosed by law, regulation, or court order, provided the disclosing party gives prompt notice to allow the other party to seek protective measures\n\n5. RETURN OF INFORMATION\nUpon termination of this Agreement or upon request, each party shall:\n(a) Return or destroy all Confidential Information in its possession\n(b) Certify in writing the destruction or return of such information\n(c) Retain one archival copy if required by law\n\n6. NO OBLIGATION\nNeither party is obligated to disclose any information or proceed with any business relationship. This Agreement does not create a partnership, joint venture, or agency relationship.\n\n7. DISCLAIMER\nCONFIDENTIAL INFORMATION IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND. NEITHER PARTY MAKES ANY WARRANTY, EXPRESS OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS, OR NON-INFRINGEMENT OF CONFIDENTIAL INFORMATION.\n\n8. GOVERNING LAW\nThis Agreement shall be governed by and construed in accordance with the laws of {{jurisdiction}}, without regard to conflicts of law principles.\n\n9. ENTIRE AGREEMENT\nThis Agreement constitutes the entire agreement between the parties regarding the subject matter and supersedes all prior negotiations, understandings, and agreements, whether written or oral.\n\n10. SEVERABILITY\nIf any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.\n\nIN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.\n\nPARTY A: {{partyA}}\nBy: _____________________\nName: ___________________\nTitle: ____________________\nDate: ____________________\n\nPARTY B: {{partyB}}\nBy: _____________________\nName: ___________________\nTitle: ____________________\nDate: ____________________"
+}
