@@ -5,7 +5,8 @@
       "mcp__atlassian__getJiraIssue",
       "mcp__github__create_pull_request",
       "Bash(chmod +x:*)",
-      "Skill(commit-commands:commit)"
+      "Skill(commit-commands:commit)",
+      "Skill(commit-commands:commit-push-pr)"
     ]
   }
 }
