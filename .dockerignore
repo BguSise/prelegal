@@ -1,0 +1,13 @@
+frontend/node_modules
+frontend/.next
+frontend/out
+backend/__pycache__
+backend/*.pyc
+backend/tests
+backend/.pytest_cache
+.git
+.gitignore
+.env
+.dockerignore
+*.md
+.DS_Store

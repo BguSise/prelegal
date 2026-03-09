@@ -16,15 +16,11 @@ export interface Template {
   content: string;
 }
 
+import { apiClient } from "./api";
+
 export async function loadTemplate(templateId: string): Promise<Template> {
   try {
-    const response = await fetch(
-      `/templates/${templateId}.json`
-    );
-    if (!response.ok) {
-      throw new Error(`Failed to load template: ${response.statusText}`);
-    }
-    return await response.json();
+    return await apiClient.get<Template>(`/templates/${templateId}`);
   } catch (error) {
     console.error("Error loading template:", error);
     throw error;
@@ -33,12 +29,8 @@ export async function loadTemplate(templateId: string): Promise<Template> {
 
 export async function loadTemplateIndex(): Promise<any[]> {
   try {
-    const response = await fetch("/templates/index.json");
-    if (!response.ok) {
-      throw new Error(`Failed to load template index: ${response.statusText}`);
-    }
-    const data = await response.json();
-    return data.templates;
+    const templates = await apiClient.get<any[]>("/templates");
+    return templates;
   } catch (error) {
     console.error("Error loading template index:", error);
     throw error;
